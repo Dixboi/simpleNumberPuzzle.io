@@ -1,0 +1,89 @@
+
+.wrapper {
+	/*position and size*/
+	margin: auto;
+	width: 25rem;
+	height: 30rem;
+	
+	/*style*/
+	border: 0.5rem solid black;
+	border-radius: 5%;
+	text-align: center;
+}
+
+.board {
+	/*position and size*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.75rem;
+	width: 90%;
+	height: 75%;
+	
+	/*style*/
+	border: 0.5rem solid black;
+	
+	/*grid*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.block {
+	/*style*/
+	border: 0.1rem solid gray;
+	font-size: 2.5rem;
+	
+	/*flex*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block:hover {
+	/*style*/
+	color: white;
+	background-color: black;
+}
+
+.buttons {
+	/*position and size*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.75rem;
+	width: 75%;
+	height: 15%;
+	
+	/*style*/
+	border: 0.25rem solid black;
+	
+	/*grid*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+}
+
+.choice {
+	/*position and size*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2rem;
+	width: 4.5rem;
+	height: 2rem;
+	
+	/*style*/
+	display: flex;
+	border: 0.15rem solid black;
+	text-align: center;
+	justify-content: center;
+}
+
+.choice:hover {
+	/*style*/
+	color: white;
+	background-color: black;
+}
+
+
+
+
+
